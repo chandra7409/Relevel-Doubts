@@ -1,9 +1,3 @@
-[
-    [0, 1, 0, 0],
-    [0, 0, 0, 1],
-    [0, 1, 0, 0],
-    [0, 0, 0, 0],
-]
 var board = null
 function isSafe(i, j, boardSize){
     for(let m = 0; m < boardSize; m++){
@@ -14,7 +8,7 @@ function isSafe(i, j, boardSize){
     return true
 }
 function nQueens(row, boardSize){
-    console.log(board)
+    // console.log(board)
     //Base Condition
     if(row >= boardSize) return true
     //Conditional Recursive Call
@@ -36,4 +30,4 @@ function driver(boardSize){
     //show the solution
     console.log(board)
 }
-driver(4)
+driver(8)
