@@ -1,0 +1,5 @@
+1. create an empty folder
+2. go insider that folder in cmd
+3. run "mongod --dbpath ."
+4. open another terminal
+5. run "mongo"
