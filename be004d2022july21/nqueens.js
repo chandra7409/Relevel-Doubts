@@ -16,7 +16,7 @@ function nQueens(row, boardSize){
         if(isSafe(row, col, boardSize)){
             board[row][col] = 1
             if(nQueens(row + 1, boardSize)) return true
-            board[row][col] = 0
+            board[row][col] = 0 // Backtracking
         }
     }
     return false
