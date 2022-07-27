@@ -54,13 +54,6 @@ function setCache(key, value){
     }
 }
 function getCache(key){
-    // for(var i = 0; i < cache.length; i++){
-    //     if(cache[i].key == key){
-    //         var value = cache[i].value
-    //         updateRecent(i)
-    //         return value
-    //     }
-    // }
     var cacheNode = map[key]
     if(cacheNode.next == null){
         lastElementPosition = cacheNode.prev != null? cacheNode.prev: cacheNode
