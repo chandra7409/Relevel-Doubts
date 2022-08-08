@@ -1,0 +1,17 @@
+localhost:4000/routes/v1/authentication/sign-up
+routes("/routes"):{
+    v1("/v1"):{
+        authentication("/authentication"):{
+            /sign-up
+            /sign-in
+            /forgot-password
+            /send-email-for-otp
+            /verify-otp
+        }
+        users:{
+            /profile
+            /edit-profile
+            /get-friends-list
+        }
+    }
+}
